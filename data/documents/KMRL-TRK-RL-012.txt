@@ -1,0 +1,15 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - PERMANENT WAY ENGINEERING
+DOCUMENT CODE: KMRL-TRK-RL-012
+TITLE: ULTRASONIC FLAW DETECTION (USFD) TESTING AND CORRUGATION GRINDING
+================================================================================
+
+SECTION 1.0: USFD TESTING FREQUENCY
+1.1 Mainline track rail section: 60 kg/m UIC 60 steel rails with 1080 Head Hardened (HH) grade steel on sharp viaduct curves (radius < 400 m).
+1.2 Ultrasonic Flaw Detection (USFD) testing of rails and welded joints is conducted every 4 months using a digital multi-channel rail tester (Model Sperry DRT-44).
+1.3 Any flaw classified as 'Immediate Removal Defect' (Code IMR) requires clamping the rail section with emergency fishplates and imposing a 20 km/h speed limit within 2 hours.
+
+SECTION 2.0: RAIL CORRUGATION AND ACOUSTIC ROUGHNESS
+2.1 Short-pitch corrugation wavelength (30 mm to 80 mm) occurs on tight curves between Changampuzha Park and Palarivattom.
+2.2 When acoustic rail roughness exceeds 15 micrometers (peak-to-valley), a specialized rail grinding train (RGT) is deployed during night possessions.
+2.3 Grinding passes remove 0.2 mm to 0.4 mm of metal per pass to restore the nominal transverse rail profile and eliminate Rolling Contact Fatigue (RCF) microcracks.

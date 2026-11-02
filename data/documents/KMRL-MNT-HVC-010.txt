@@ -1,0 +1,19 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - E&M DEPARTMENT
+DOCUMENT CODE: KMRL-MNT-HVC-010
+DATE: 19-JUL-2024 | LOCATION: VADAKKEKOTTA STATION (UNDERGROUND PLANT ROOM)
+EQUIPMENT: WATER-COOLED CENTRIFUGAL CHILLER UNIT CH-02 (CAPACITY: 350 TR)
+================================================================================
+
+SECTION 1.0: INCIDENT DESCRIPTION
+At 11:35 IST on 19-July-2024, Chiller Unit CH-02 servicing the underground concourse and platform air conditioning system tripped on safety interlock ALM-HVC-DP-LOW, causing station concourse ambient temperature to rise from 24.5°C to 28.8°C over a 40-minute window.
+
+SECTION 2.0: ROOT CAUSE FINDINGS
+2.1 Inspection of the primary chilled water piping revealed the differential water pressure switch (DPS-02) across the shell-and-tube evaporator had sustained contact corrosion.
+2.2 Although actual water flow was verified at 120 cubic meters/hour (well above the minimum required safety threshold of 95 m3/h), the corroded switch falsely signaled a low-flow condition to the Chiller Microprocessor Panel.
+2.3 Condenser water pump CWP-02 had air trapped in its casing following suction strainer cleaning earlier that morning.
+
+SECTION 3.0: REMEDIAL REPAIRS EXECUTED
+3.1 Replaced faulty differential pressure switch DPS-02 with a hermetically sealed IP66 pressure transmitter (Model Danfoss RT-112).
+3.2 De-aerated and bled air from pump casing CWP-02; balanced cooling tower return flow valves.
+3.3 Restarted Chiller Unit CH-02 at 13:10 IST. Evaporator chilled water leaving temperature stabilized at 7.2°C, and concourse temperature normalized to 24.0°C within 35 minutes.

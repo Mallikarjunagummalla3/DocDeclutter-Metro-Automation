@@ -1,0 +1,19 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - ROLLING STOCK DIVISION
+DOCUMENT CODE: KMRL-RS-BRK-011
+TITLE: AIR COMPRESSOR UNIT ACU-01 MAINTENANCE AND PNEUMATIC BRAKE THRESHOLDS
+================================================================================
+
+SECTION 1.0: PNEUMATIC SYSTEM ARCHITECTURE
+1.1 Compressed air for train mechanical braking, secondary air suspension bellows, and pantograph/third-rail shoe lifting is supplied by Air Compressor Unit model ACU-01.
+1.2 ACU-01 is an oil-free reciprocating compressor mounted under the Trailer Car (TC) chassis.
+1.3 Main Reservoir Pipe (MRP) nominal operating pressure is regulated between 8.5 bar (cut-in) and 10.0 bar (cut-out).
+
+SECTION 2.0: EMERGENCY BRAKE APPLICATION THRESHOLDS
+2.1 Emergency Brake (EB) is a fail-safe, spring-applied, pneumatically released friction brake system.
+2.2 The brake pipe (BP) pressure is charged at 5.0 bar in running state. Any pressure drop below 3.2 bar triggers full EB application.
+2.3 If MRP pressure drops below 6.2 bar, train traction is automatically inhibited by the Train Management System (TMS) to prevent departing a station with insufficient reservoir reserve.
+
+SECTION 3.0: BRAKE PAD WEAR AND CALIPER INSPECTION
+3.1 Sintered metallic brake pad initial thickness: 24.0 mm. Minimum condemning wear limit: 5.0 mm remaining backing plate clearance.
+3.2 Brake cylinder piston stroke under full service brake must be 38 ± 4 mm. If stroke exceeds 45 mm, automatic slack adjuster must be inspected.

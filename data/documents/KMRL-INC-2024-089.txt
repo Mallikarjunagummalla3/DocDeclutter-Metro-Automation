@@ -1,0 +1,31 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - SAFETY INVESTIGATION REPORT
+INCIDENT REFERENCE: KMRL-INC-2024-089
+DATE OF OCCURRENCE: 14-OCT-2024 | TIME: 08:24 IST
+LOCATION: ALUVA STATION - CROSSOVER TURNOUT 21A & PLATFORM 1
+INVESTIGATING OFFICER: S. NAIR (CHIEF SAFETY COMMISSIONER)
+================================================================================
+
+SECTION 1.0: EXECUTIVE SUMMARY
+On Monday, 14 October 2024, at approximately 08:24 IST during the morning peak revenue period, Trainset TS-07 operating Train Run No. 104 experienced an unexpected service disruption while approaching Aluva Station Platform 1. The train came to an abrupt automatic standstill 80 meters outside the station platform boundary, resulting in a line blockage and subsequent 24-minute cumulative service delay affecting eight downstream passenger trains.
+
+SECTION 2.0: SEQUENCE OF EVENTS
+- 08:22:15 IST: Train TS-07 dispatched from Pulinchodu Station towards Aluva Terminal on Down Line at 62 km/h.
+- 08:23:48 IST: Train approaches crossover turnout 21A. The onboard VOBC reports packet timeout with trackside Radio Access Point AP-ALV-03.
+- 08:23:52 IST: Loss of CBTC radio signal exceeds 3.5-second fail-safe timeout window.
+- 08:23:55 IST: Train onboard computer commands fail-safe Emergency Brake (EB). Train TS-07 stops safely at Chainage 27+840.
+- 08:25:00 IST: Train Driver initiates contact with OCC Traffic Controller reporting uncommanded EB application.
+- 08:31:20 IST: OCC commands Traffic Controller to attempt radio link re-acquisition. Signal fails to establish.
+- 08:35:40 IST: OCC grants formal clearance to switch Train TS-07 into Restricted Manual (RM) mode at 15 km/h.
+- 08:42:10 IST: Train TS-07 successfully docks at Aluva Platform 1; all 340 passengers detrained safely without injury.
+- 08:48:00 IST: Normal CBTC service restored after resetting wayside radio controller switch.
+
+SECTION 3.0: ROOT CAUSE ANALYSIS
+3.1 The technical investigation revealed that trackside Radio Access Point AP-ALV-03 suffered an unexpected power supply trip caused by moisture ingress into its external junction box JB-21A following heavy unseasonal rainfall the prior night.
+3.2 The auxiliary DC-DC power converter inside JB-21A failed, dropping the 48V DC feed to the AP-ALV-03 antenna transmitter.
+3.3 Secondary contributing factor: Redundant Access Point AP-ALV-04 was undergoing scheduled firmware migration and was temporarily offline, leaving the Aluva crossover zone without hot-standby radio coverage.
+
+SECTION 4.0: CORRECTIVE AND PREVENTIVE ACTIONS (CAPA)
+1. Replace weather-proofing gaskets on all 148 outdoor junction boxes across viaduct sections with IP68-rated silicon seals within 14 days.
+2. Update OCC standard operating instructions: Never schedule radio maintenance or firmware upgrades during revenue operating hours (06:00 to 22:30 hrs).
+3. Introduce dual redundant auxiliary power supplies inside each trackside junction box.

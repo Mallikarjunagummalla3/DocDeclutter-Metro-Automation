@@ -1,0 +1,20 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - PERMANENT WAY (P-WAY) DIVISION
+DOCUMENT CODE: KMRL-PWAY-TRN-005
+INSPECTION DATE: 18-APR-2024 | LOCATION: MUTTOM DEPOT YARD - TURNOUT 102
+EQUIPMENT: ELECTRO-MECHANICAL POINT MACHINE MODEL P-102
+================================================================================
+
+SECTION 1.0: INSPECTION OBJECTIVE
+Routine quarterly preventive inspection and switch rail geometry verification for Point Machine P-102 controlling the reception line leading into the Muttom overhaul workshop.
+
+SECTION 2.0: MEASUREMENT FINDINGS AND CLEARANCES
+2.1 Switch Rail Opening (Throw): Measured at 115 mm on normal side, 114 mm on reverse side (Standard tolerance: 115 ± 2 mm). Status: PASS.
+2.2 Tongue Rail to Stock Rail Housing: Clearance verified using a 1.5 mm feeler gauge. Gap measured at 0.8 mm (Permissible limit: < 2.0 mm). Status: PASS.
+2.3 Point Machine Operating Current: During throwing cycle, motor drawn current was 2.8 A at 110V DC (Allowable upper limit: 3.5 A). Status: PASS.
+2.4 Lock Rod and Detector Slide Clearance: Lock slide notch gap measured at 2.2 mm against standard 2.0 mm to 3.0 mm specification.
+
+SECTION 3.0: LUBRICATION AND WEAR OBSERVATIONS
+3.1 Slide chairs were cleaned of dried debris and lubricated using environmentally benign graphite grease grade KMRL-GG-4.
+3.2 Minor surface spalling of 0.4 mm depth observed on right-hand tongue rail tip over an 80 mm length. Ground smooth using portable rail profile grinder in accordance with Track Standard TS-08.
+3.3 Insulated rail joint (IRJ) resistance between turnout rails measured at 1.8 kOhms against minimum threshold of 1.0 kOhm.

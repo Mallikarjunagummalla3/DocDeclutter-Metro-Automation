@@ -1,0 +1,23 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - OPERATION CONTROL CENTRE (OCC)
+DAILY OPERATIONS LOG SHEET
+DATE: 14-OCT-2024 | SHIFT: COMPREHENSIVE (05:00 - 23:30 IST)
+CHIEF CONTROLLER ON DUTY: K. RADHAKRISHNAN
+================================================================================
+
+SECTION 1.0: OPERATIONAL SUMMARY METRICS
+- Total Scheduled Train Trips: 246 trips
+- Total Trips Operated: 244 trips (2 trips cancelled due to Incident KMRL-INC-2024-089)
+- On-Time Punctuality Index: 96.7% (Target: 99.0%)
+- Total Daily Ridership: 88,412 passengers
+- Active Trainsets in Revenue Service: 16 trainsets (TS-01 to TS-16)
+- Reserve Standby Trainsets: 3 trainsets (TS-17, TS-18 at Muttom Depot, TS-19 at Aluva Siding)
+- Total Traction Energy Consumed: 48,210 kWh
+- Regenerative Braking Energy Recovered: 14,860 kWh (30.8% energy recovery efficiency)
+
+SECTION 2.0: NOTABLE LOGGED INCIDENTS
+- 06:12 IST: Kalamassery Station Down Line Platform Screen Door (PSD) Gate 4 failed to open. Station staff placed manual door lock; trains operated normally. Rectified at 07:10 IST.
+- 08:24 IST: INCIDENT KMRL-INC-2024-089. TS-07 uncommanded emergency brake near Aluva crossover 21A. 24-minute line delay. Managed via RM mode.
+- 13:45 IST: Heavy monsoon downpour across Edapally - Palarivattom viaduct. Speed restriction of 50 km/h applied between Ch. 14+200 and 16+800 for 45 minutes due to visibility limits.
+- 19:15 IST: Customer medical emergency at MG Road Station; passenger escorted by station first-aid team. Train TS-11 delayed by 2.5 minutes.
+- 23:15 IST: Last revenue train docked at Aluva; third rail traction power de-energized at 23:45 IST for track maintenance possession.

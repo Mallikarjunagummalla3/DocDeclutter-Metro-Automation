@@ -1,0 +1,222 @@
+[
+  {
+    "query_id": "Q01",
+    "category": "Signaling & CBTC",
+    "question": "What is the maximum speed permitted when a metro train is operated in Restricted Manual (RM) mode?",
+    "expected_doc_id": "KMRL-SOP-SIG-001",
+    "expected_section": "SECTION 4.0: DEGRADED AND FALLBACK MODES",
+    "expected_page": 1,
+    "supporting_text": "In RM mode, maximum train speed is rigidly capped at 25 km/h with cab signaling suppressed.",
+    "expected_answer": "In Restricted Manual (RM) mode, the maximum train speed is rigidly capped at 25 km/h, with cab signaling suppressed, and requires formal authorization from the Traffic Controller (OCC).",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q02",
+    "category": "Signaling & CBTC",
+    "question": "What happens if point detection is lost during throwing of the turnout point machine?",
+    "expected_doc_id": "KMRL-SOP-SIG-001",
+    "expected_section": "SECTION 3.0: TRACKSIDE BALISE AND INTERLOCKING INTERFACE",
+    "expected_page": 1,
+    "supporting_text": "If point detection is lost during throwing, the EI will initiate two automatic re-trials before declaring a point failure alarm (Alarm Code: ALM-EI-PT-FAIL) to the OCC workstation.",
+    "expected_answer": "The Electronic Interlocking (EI) will initiate two automatic re-trials before declaring a point failure alarm (Alarm Code: ALM-EI-PT-FAIL) to the OCC workstation.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q03",
+    "category": "Signaling & CBTC",
+    "question": "How long must dual-radio communication timeout occur before the train VOBC commands an Emergency Brake application?",
+    "expected_doc_id": "KMRL-SOP-SIG-001",
+    "expected_section": "SECTION 4.0: DEGRADED AND FALLBACK MODES",
+    "expected_page": 1,
+    "supporting_text": "In the event of dual-radio communication timeout exceeding 3.5 seconds, the train VOBC immediately commands an Automatic Emergency Brake (EB) application",
+    "expected_answer": "A dual-radio communication timeout exceeding 3.5 seconds triggers the train VOBC to command an Automatic Emergency Brake (EB) application.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q04",
+    "category": "Traction Power",
+    "question": "What are the pickup settings and delay times for the overcurrent and earth fault protection relays on the VCB-02 breaker?",
+    "expected_doc_id": "KMRL-MNT-PWR-002",
+    "expected_section": "SECTION 2.0: VACUUM CIRCUIT BREAKER (VCB-02) SPECIFICATIONS & TRIPPING PROCEDURES",
+    "expected_page": 1,
+    "supporting_text": "Overcurrent protection relay (Relay 51) pickup: Trip setting calibrated at 1400 A with a 0.2-second definite time delay. Earth fault protection relay (Relay 51N) pickup: Trip setting at 120 A with instantaneous tripping (< 30 ms).",
+    "expected_answer": "The overcurrent relay (Relay 51) is calibrated at 1400 A with a 0.2-second definite time delay, while the earth fault relay (Relay 51N) is set at 120 A with instantaneous tripping (< 30 ms).",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q05",
+    "category": "Traction Power",
+    "question": "What is the maximum allowable wear limit for the third rail stainless steel capping?",
+    "expected_doc_id": "KMRL-MNT-PWR-002",
+    "expected_section": "SECTION 3.0: THIRD RAIL CONDUCTOR INSPECTION AND WEAR LIMITS",
+    "expected_page": 1,
+    "supporting_text": "Initial cap thickness: 4.5 mm. Maximum allowable wear limit: 2.0 mm remaining. When thickness drops below 2.5 mm, replacement must be scheduled within 30 days.",
+    "expected_answer": "The initial cap thickness is 4.5 mm and the maximum allowable wear limit is 2.0 mm remaining thickness (with replacement scheduled within 30 days once it drops below 2.5 mm).",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q06",
+    "category": "Rolling Stock",
+    "question": "What are the temperature thresholds for TM-104 traction motor bearings, and at what temperature is the motor inverter isolated?",
+    "expected_doc_id": "KMRL-RS-TM-003",
+    "expected_section": "SECTION 2.0: BEARING TEMPERATURE MONITORING AND THRESHOLDS",
+    "expected_page": 1,
+    "supporting_text": "Normal operating band: 45\u00b0C to 75\u00b0C. Caution advisory threshold: 85\u00b0C... Alarm threshold: 95\u00b0C... Critical Trip threshold: 105\u00b0C (TMS automatically isolates the affected VVVF traction inverter)",
+    "expected_answer": "Normal operating range is 45\u00b0C-75\u00b0C; Caution is 85\u00b0C; Alarm is 95\u00b0C; and at the Critical Trip threshold of 105\u00b0C, the TMS automatically isolates the affected VVVF traction inverter.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q07",
+    "category": "Rolling Stock",
+    "question": "What type of synthetic grease is used for lubricating TM-104 traction motor bearings and what is the injection amount?",
+    "expected_doc_id": "KMRL-RS-TM-003",
+    "expected_section": "SECTION 2.0: BEARING TEMPERATURE MONITORING AND THRESHOLDS",
+    "expected_page": 1,
+    "supporting_text": "Bearing Lubrication: Kluberplex BEM 42-133 high-temperature synthetic grease. Greasing interval: Every 60,000 km or 6 months, injecting precisely 45 grams per bearing.",
+    "expected_answer": "Kluberplex BEM 42-133 high-temperature synthetic grease is used, injecting precisely 45 grams per bearing every 60,000 km or 6 months.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q08",
+    "category": "Incident Investigation",
+    "question": "What caused the metro service delay on 14 October 2024 at Aluva Station?",
+    "expected_doc_id": "KMRL-INC-2024-089",
+    "expected_section": "SECTION 3.0: ROOT CAUSE ANALYSIS",
+    "expected_page": 1,
+    "supporting_text": "trackside Radio Access Point AP-ALV-03 suffered an unexpected power supply trip caused by moisture ingress into its external junction box JB-21A following heavy unseasonal rainfall the prior night. The auxiliary DC-DC power converter inside JB-21A failed, dropping the 48V DC feed... Redundant Access Point AP-ALV-04 was undergoing scheduled firmware migration and was temporarily offline",
+    "expected_answer": "The delay on 14 October 2024 at Aluva was caused by trackside Radio Access Point AP-ALV-03 losing power due to moisture ingress into junction box JB-21A after heavy rain, while redundant AP-ALV-04 was offline for firmware migration, causing a CBTC radio timeout and automatic emergency brake on Train TS-07.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q09",
+    "category": "Incident Investigation",
+    "question": "What were the immediate corrective and preventive actions ordered following the Aluva service disruption?",
+    "expected_doc_id": "KMRL-INC-2024-089",
+    "expected_section": "SECTION 4.0: CORRECTIVE AND PREVENTIVE ACTIONS (CAPA)",
+    "expected_page": 1,
+    "supporting_text": "1. Replace weather-proofing gaskets on all 148 outdoor junction boxes across viaduct sections with IP68-rated silicon seals within 14 days. 2. Update OCC standard operating instructions: Never schedule radio maintenance or firmware upgrades during revenue operating hours... 3. Introduce dual redundant auxiliary power supplies",
+    "expected_answer": "The corrective actions were: replacing weather-proofing gaskets on all 148 outdoor junction boxes with IP68 silicon seals within 14 days; prohibiting radio maintenance/firmware upgrades during revenue hours (06:00-22:30); and introducing dual redundant auxiliary power supplies inside trackside junction boxes.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q10",
+    "category": "Permanent Way & Track",
+    "question": "What was the measured operating current of Point Machine P-102 during inspection at Muttom Yard?",
+    "expected_doc_id": "KMRL-PWAY-TRN-005",
+    "expected_section": "SECTION 2.0: MEASUREMENT FINDINGS AND CLEARANCES",
+    "expected_page": 1,
+    "supporting_text": "During throwing cycle, motor drawn current was 2.8 A at 110V DC (Allowable upper limit: 3.5 A). Status: PASS.",
+    "expected_answer": "The motor drawn current for Point Machine P-102 was 2.8 A at 110V DC, which passed within the allowable upper limit of 3.5 A.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q11",
+    "category": "Fare Collection & AFC",
+    "question": "Why was AFC gate G-03 rejecting smart cards at Maharajas College Station?",
+    "expected_doc_id": "KMRL-AFC-LOG-006",
+    "expected_section": "SECTION 2.0: DIAGNOSTIC TESTING & FINDINGS",
+    "expected_page": 1,
+    "supporting_text": "Dust accumulation from ongoing concourse platform ceiling renovation had coated the optical emitter diodes, attenuating infrared beam intensity by 42%. Network switch port SW-CON-02 was exhibiting 8% packet drops to Station Computer (SC) due to an oxidized RJ45 termination.",
+    "expected_answer": "AFC Gate G-03 was failing because dust from concourse ceiling renovation coated the optical sensors attenuating infrared beam intensity by 42%, compounded by an oxidized RJ45 network port causing an 8% packet drop.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q12",
+    "category": "Daily Operations",
+    "question": "What was the total daily ridership and on-time punctuality index for Kochi Metro on 14 October 2024?",
+    "expected_doc_id": "KMRL-OPS-LOG-007",
+    "expected_section": "SECTION 1.0: OPERATIONAL SUMMARY METRICS",
+    "expected_page": 1,
+    "supporting_text": "Total Daily Ridership: 88,412 passengers. On-Time Punctuality Index: 96.7% (Target: 99.0%)",
+    "expected_answer": "On 14 October 2024, total daily ridership was 88,412 passengers and the on-time punctuality index was 96.7% (against a target of 99.0%).",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q13",
+    "category": "Safety & Evacuation",
+    "question": "What safety confirmation is strictly required from the OCC before passengers can be detrained onto an elevated viaduct?",
+    "expected_doc_id": "KMRL-SAF-EMG-008",
+    "expected_section": "SECTION 1.0: EVACUATION CRITERIA & OCC AUTHORIZATION",
+    "expected_page": 1,
+    "supporting_text": "NO EVACUATION MAY BEGIN WITHOUT EXPLICIT 'TRACTION CURRENT DISCHARGE CONFIRMATION' (TCD) ISSUED BY THE OCC POWER CONTROLLER.",
+    "expected_answer": "No passenger evacuation can begin without explicit 'Traction Current Discharge Confirmation' (TCD) issued by the OCC Power Controller, followed by applying trackside short-circuit earthing clamps.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q14",
+    "category": "Telecommunications",
+    "question": "What frequency band and channel spacing does the KMRL TETRA radio network use?",
+    "expected_doc_id": "KMRL-TEL-TET-009",
+    "expected_section": "SECTION 1.0: RADIO FREQUENCY ALLOCATION AND NETWORK TOPOLOGY",
+    "expected_page": 1,
+    "supporting_text": "dedicated government-assigned 380 - 400 MHz band. Channel spacing: 25 kHz per carrier, with 4 time-division multiple access (TDMA) time slots per RF channel.",
+    "expected_answer": "KMRL's TETRA radio network operates in the 380 - 400 MHz band with 25 kHz channel spacing and 4 TDMA time slots per carrier.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q15",
+    "category": "HVAC & Station Environment",
+    "question": "Why did Chiller Unit CH-02 trip at Vadakkekotta Station and what replacement part was installed?",
+    "expected_doc_id": "KMRL-MNT-HVC-010",
+    "expected_section": "SECTION 2.0: ROOT CAUSE FINDINGS & SECTION 3.0",
+    "expected_page": 1,
+    "supporting_text": "differential water pressure switch (DPS-02) across the shell-and-tube evaporator had sustained contact corrosion... falsely signaled a low-flow condition... Replaced faulty differential pressure switch DPS-02 with a hermetically sealed IP66 pressure transmitter (Model Danfoss RT-112).",
+    "expected_answer": "Chiller CH-02 tripped because evaporator differential pressure switch DPS-02 had contact corrosion and falsely signaled low water flow; it was replaced with an IP66 Danfoss RT-112 pressure transmitter.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q16",
+    "category": "Rolling Stock & Pneumatics",
+    "question": "At what Main Reservoir Pipe (MRP) pressure does the Train Management System inhibit train traction?",
+    "expected_doc_id": "KMRL-RS-BRK-011",
+    "expected_section": "SECTION 2.0: EMERGENCY BRAKE APPLICATION THRESHOLDS",
+    "expected_page": 1,
+    "supporting_text": "If MRP pressure drops below 6.2 bar, train traction is automatically inhibited by the Train Management System (TMS) to prevent departing a station with insufficient reservoir reserve.",
+    "expected_answer": "Train traction is automatically inhibited if Main Reservoir Pipe (MRP) pressure drops below 6.2 bar.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q17",
+    "category": "Permanent Way & Track",
+    "question": "How often is Ultrasonic Flaw Detection (USFD) testing conducted on KMRL rails and what action is required for an IMR defect?",
+    "expected_doc_id": "KMRL-TRK-RL-012",
+    "expected_section": "SECTION 1.0: USFD TESTING FREQUENCY",
+    "expected_page": 1,
+    "supporting_text": "testing of rails and welded joints is conducted every 4 months using a digital multi-channel rail tester (Model Sperry DRT-44). Any flaw classified as 'Immediate Removal Defect' (Code IMR) requires clamping the rail section with emergency fishplates and imposing a 20 km/h speed limit within 2 hours.",
+    "expected_answer": "USFD testing is conducted every 4 months; an 'Immediate Removal Defect' (IMR) requires emergency fishplate clamping and a 20 km/h speed restriction within 2 hours.",
+    "is_answerable": true
+  },
+  {
+    "query_id": "Q18",
+    "category": "Unanswerable / Abstention",
+    "question": "What is the ticket price for a journey from Delhi Metro Kashmere Gate to Noida City Centre?",
+    "expected_doc_id": null,
+    "expected_section": null,
+    "expected_page": null,
+    "supporting_text": null,
+    "expected_answer": "The available documents do not provide enough evidence to answer this question.",
+    "is_answerable": false
+  },
+  {
+    "query_id": "Q19",
+    "category": "Unanswerable / Abstention",
+    "question": "Which catering vendor supplies meals on the Vande Bharat Express between Mumbai and Ahmedabad?",
+    "expected_doc_id": null,
+    "expected_section": null,
+    "expected_page": null,
+    "supporting_text": null,
+    "expected_answer": "The available documents do not provide enough evidence to answer this question.",
+    "is_answerable": false
+  },
+  {
+    "query_id": "Q20",
+    "category": "Unanswerable / Abstention",
+    "question": "What is the solar panel battery warranty period for the London Underground Piccadilly line?",
+    "expected_doc_id": null,
+    "expected_section": null,
+    "expected_page": null,
+    "supporting_text": null,
+    "expected_answer": "The available documents do not provide enough evidence to answer this question.",
+    "is_answerable": false
+  }
+]

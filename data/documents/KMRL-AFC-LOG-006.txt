@@ -1,0 +1,20 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - AFC & REVENUE SYSTEMS
+DOCUMENT CODE: KMRL-AFC-LOG-006
+DATE: 02-MAY-2024 | STATION: MAHARAJAS COLLEGE STATION (CONCOURSE CON-A)
+EQUIPMENT: AUTOMATIC FARE COLLECTION (AFC) FLAP BARRIER GATE ARRAY G-03
+================================================================================
+
+SECTION 1.0: REPORTED DEFECT
+Station Controller logged recurring error code ERR-AFC-G03-VAL: Gate G-03 rejecting contactless smart cards and Kochi1 Rupay cards intermittently, with flap barrier staying open for 15 seconds after passenger passage.
+
+SECTION 2.0: DIAGNOSTIC TESTING & FINDINGS
+2.1 Diagnostic scan revealed the onboard QR/NFC card validator module (Model CV-880) was experiencing optical beam misalignment across infrared passenger tracking sensor array IR-04 and IR-05.
+2.2 Dust accumulation from ongoing concourse platform ceiling renovation had coated the optical emitter diodes, attenuating infrared beam intensity by 42%.
+2.3 Network switch port SW-CON-02 was exhibiting 8% packet drops to Station Computer (SC) due to an oxidized RJ45 termination.
+
+SECTION 3.0: REPAIR WORK UNDERTAKEN
+3.1 Cleaned all 16 pairs of optical beam sensors using 99% isopropyl alcohol wipes. Beam alignment recalibrated using laser sighting tool.
+3.2 Re-terminated CAT-6 patch cable to network port SW-CON-02; packet loss dropped to 0.00%.
+3.3 Flap barrier mechanical actuator torque re-adjusted to 18 Nm; transit passage cycle time verified at 0.7 seconds per passenger.
+3.4 Test batch of 50 smart cards and 25 Kochi1 cards scanned successfully without rejection. Gate returned to active revenue service at 14:15 IST.

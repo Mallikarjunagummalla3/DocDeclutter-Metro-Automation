@@ -1,0 +1,23 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - SAFETY DIRECTIVE
+DOCUMENT CODE: KMRL-SAF-EMG-008
+TITLE: EMERGENCY EVACUATION PROCEDURES FOR TRAINS STRANDED ON ELEVATED VIADUCT
+================================================================================
+
+SECTION 1.0: EVACUATION CRITERIA & OCC AUTHORIZATION
+1.1 Detrainment of passengers onto the elevated viaduct is a LAST-RESORT safety measure.
+1.2 Viaduct evacuation must be ordered ONLY when:
+    - Train is disabled and cannot be moved under own power or rescue propulsion within 30 minutes.
+    - Imminent life-safety hazard exists inside cars (e.g., uncontrolled onboard fire, toxic smoke ingress, structural damage).
+1.3 NO EVACUATION MAY BEGIN WITHOUT EXPLICIT "TRACTION CURRENT DISCHARGE CONFIRMATION" (TCD) ISSUED BY THE OCC POWER CONTROLLER.
+
+SECTION 2.0: TRACTION CURRENT DISCHARGE (TCD) MANDATE
+2.1 The OCC Power Controller must remotely trip the corresponding 750V DC section circuit breakers.
+2.2 The Station Supervisor or Train Driver must apply the portable trackside short-circuiting earthing device (red grounding clamp) across the third rail and running rail before opening train emergency doors.
+2.3 The OCC Power Controller logs the unique TCD authorization token number in the emergency log book.
+
+SECTION 3.0: PASSENGER DETRAINMENT PROCEDURE
+3.1 The Train Operator deploys the front or rear end detrainment ramp located behind the driver cab bulkhead.
+3.2 The maximum slope of the deployed telescopic ramp is 28 degrees; non-skid tread surfaces must be inspected before boarding passengers down.
+3.3 Passengers are guided in single file along the dedicated 800 mm wide emergency evacuation walkway on the viaduct parapet wall toward the nearest station platform.
+3.4 Walkway emergency guide lighting illuminates automatically (minimum 15 lux level maintained for 90 minutes via central UPS batteries).

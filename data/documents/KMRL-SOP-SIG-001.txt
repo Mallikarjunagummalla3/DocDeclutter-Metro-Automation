@@ -1,0 +1,29 @@
+================================================================================
+KOCHI METRO RAIL LIMITED (KMRL) - SIGNALING & TELECOM DIVISION
+DOCUMENT CODE: KMRL-SOP-SIG-001
+REVISION: 3.2 | DATE: 15-JAN-2024
+TITLE: STANDARD OPERATING PROCEDURE FOR CBTC SIGNALING & AUTOMATIC TRAIN SUPERVISION (ATS)
+================================================================================
+
+SECTION 1.0: SYSTEM OVERVIEW AND ARCHITECTURE
+Kochi Metro operates an advanced Communications-Based Train Control (CBTC) signaling system over its 28-kilometer revenue alignment connecting Aluva to Thripunithura. The system utilizes redundant bidirectional radio communication links operating in the 5.8 GHz ISM frequency band between trackside Access Points (APs) and trainborne Vehicle On-Board Controllers (VOBC).
+
+SECTION 2.0: AUTOMATIC TRAIN SUPERVISION (ATS) SUBSYSTEM
+2.1 Automatic Train Supervision (ATS) at the Operation Control Centre (OCC) in Muttom monitors train movements in real time.
+2.2 The primary ATS server handles automatic train routing, timetable regulation, headway management, and platform dwell time optimization.
+2.3 Dwell times are dynamically adjusted between 20 seconds and 45 seconds depending on peak passenger interchange demand at interchange nodes like Edapally and MG Road.
+
+SECTION 3.0: TRACKSIDE BALISE AND INTERLOCKING INTERFACE
+3.1 Fixed Eurobalises are installed at 50-meter intervals along the main line to provide absolute position recalibration to the train's tachometer and Doppler radar sensors.
+3.2 Electronic Interlocking (EI) interfaces with turnout point machines (type P-102). In normal operation, point throwing time must not exceed 4.5 seconds.
+3.3 If point detection is lost during throwing, the EI will initiate two automatic re-trials before declaring a point failure alarm (Alarm Code: ALM-EI-PT-FAIL) to the OCC workstation.
+
+SECTION 4.0: DEGRADED AND FALLBACK MODES
+4.1 In the event of dual-radio communication timeout exceeding 3.5 seconds, the train VOBC immediately commands an Automatic Emergency Brake (EB) application, coming to a standstill within the target safety margin.
+4.2 Transition to Restricted Manual (RM) mode requires formal authorization from the Traffic Controller (OCC). In RM mode, maximum train speed is rigidly capped at 25 km/h with cab signaling suppressed.
+4.3 Reverse movements in mainline passenger areas are strictly prohibited unless the Track Detection Section is confirmed clear by axle counters.
+
+SECTION 5.0: MAINTENANCE SCHEDULE AND FIELD INSPECTION
+- Bi-weekly inspection: Visual inspection of wayside balise mountings, radio antenna alignments, and trackside cabling conduits.
+- Monthly overhaul: Measurement of balise telegram signal strength (minimum acceptable threshold: -75 dBm) and verification of redundant antenna VSWR (< 1.5).
+- Quarterly test: Complete ATS server failover drill and simulation of point machine detection failure.

@@ -1,0 +1,62 @@
+[
+  {
+    "config_name": "Baseline A",
+    "total_chunks": 108,
+    "doc_recall_at_1": 1.0,
+    "doc_recall_at_5": 1.0,
+    "section_recall_at_1": 0.0,
+    "section_recall_at_5": 0.0,
+    "recall_at_1": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 0.5,
+    "groundedness_rate": 0.9647,
+    "abstention_accuracy": 0.0,
+    "avg_latency_ms": 0.36,
+    "total_benchmark_time_sec": 0.02
+  },
+  {
+    "config_name": "Experiment B",
+    "total_chunks": 117,
+    "doc_recall_at_1": 1.0,
+    "doc_recall_at_5": 1.0,
+    "section_recall_at_1": 0.0588,
+    "section_recall_at_5": 0.1176,
+    "recall_at_1": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 0.5196,
+    "groundedness_rate": 0.9647,
+    "abstention_accuracy": 0.0,
+    "avg_latency_ms": 0.3,
+    "total_benchmark_time_sec": 0.01
+  },
+  {
+    "config_name": "Experiment C",
+    "total_chunks": 117,
+    "doc_recall_at_1": 1.0,
+    "doc_recall_at_5": 1.0,
+    "section_recall_at_1": 0.0588,
+    "section_recall_at_5": 0.1176,
+    "recall_at_1": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 0.5294,
+    "groundedness_rate": 0.9824,
+    "abstention_accuracy": 0.0,
+    "avg_latency_ms": 0.35,
+    "total_benchmark_time_sec": 0.01
+  },
+  {
+    "config_name": "Proposed System",
+    "total_chunks": 117,
+    "doc_recall_at_1": 1.0,
+    "doc_recall_at_5": 1.0,
+    "section_recall_at_1": 0.1176,
+    "section_recall_at_5": 0.1176,
+    "recall_at_1": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 0.5588,
+    "groundedness_rate": 0.9647,
+    "abstention_accuracy": 1.0,
+    "avg_latency_ms": 0.45,
+    "total_benchmark_time_sec": 0.02
+  }
+]
