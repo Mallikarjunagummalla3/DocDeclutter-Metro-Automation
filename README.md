@@ -3,6 +3,9 @@
 **Smart India Hackathon (SIH) Problem Statement: SIH25080**  
 *Tailored for Kochi Metro Rail Limited (KMRL) Transit Operations*
 
+> 🌐 **Live Web Application Interface:** **`http://localhost:8501`** (LAN / Network Access: **`http://10.35.132.51:8501`**)  
+> ⚡ **Launch Command:** `streamlit run app.py`
+
 ---
 
 ## 📌 Executive Summary
