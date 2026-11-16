@@ -150,6 +150,19 @@ def main():
     else:
         model_name = "docdeclutter-grounded-v1"
 
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("📦 Project Download")
+    zip_path = os.path.join(BASE_DIR, "DocDeclutter_Metro_Automation_Project.zip")
+    if os.path.exists(zip_path):
+        with open(zip_path, "rb") as zf:
+            st.sidebar.download_button(
+                label="⬇️ Download Project ZIP",
+                data=zf.read(),
+                file_name="DocDeclutter_Metro_Automation_Project.zip",
+                mime="application/zip",
+                use_container_width=True
+            )
+
     # Header Banner
     st.markdown("""
     <div class="metro-header">
